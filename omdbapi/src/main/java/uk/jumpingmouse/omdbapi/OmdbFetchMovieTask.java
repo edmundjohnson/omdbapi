@@ -7,12 +7,12 @@ import android.support.annotation.UiThread;
 import android.support.annotation.WorkerThread;
 import android.util.Log;
 
-import retrofit2.Call;
-import retrofit2.Response;
-
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.net.HttpURLConnection;
+
+import retrofit2.Call;
+import retrofit2.Response;
 
 /**
  * A task which fetches a movie from the OMDb and returns it to a supplied handler.

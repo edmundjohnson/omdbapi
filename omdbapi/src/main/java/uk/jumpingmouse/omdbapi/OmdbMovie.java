@@ -65,6 +65,7 @@ public final class OmdbMovie {
     public String getTitle() {
         return Title;
     }
+
     public void setTitle(@Nullable String title) {
         this.Title = title;
     }
@@ -73,6 +74,7 @@ public final class OmdbMovie {
     public String getYear() {
         return Year;
     }
+
     public void setYear(@Nullable String year) {
         this.Year = year;
     }
@@ -81,6 +83,7 @@ public final class OmdbMovie {
     public String getRated() {
         return Rated;
     }
+
     public void setRated(@Nullable String rated) {
         this.Rated = rated;
     }
@@ -89,6 +92,7 @@ public final class OmdbMovie {
     public String getReleased() {
         return Released;
     }
+
     public void setReleased(@Nullable String released) {
         this.Released = released;
     }
@@ -97,6 +101,7 @@ public final class OmdbMovie {
     public String getRuntime() {
         return Runtime;
     }
+
     public void setRuntime(@Nullable String runtime) {
         this.Runtime = runtime;
     }
@@ -105,6 +110,7 @@ public final class OmdbMovie {
     public String getGenre() {
         return Genre;
     }
+
     public void setGenre(@Nullable String genre) {
         this.Genre = genre;
     }
@@ -112,6 +118,7 @@ public final class OmdbMovie {
     public String getDirector() {
         return Director;
     }
+
     public void setDirector(@Nullable String director) {
         Director = director;
     }
@@ -120,6 +127,7 @@ public final class OmdbMovie {
     public String getWriter() {
         return Writer;
     }
+
     public void setWriter(@Nullable String writer) {
         Writer = writer;
     }
@@ -128,6 +136,7 @@ public final class OmdbMovie {
     public String getActors() {
         return Actors;
     }
+
     public void setActors(@Nullable String actors) {
         Actors = actors;
     }
@@ -136,6 +145,7 @@ public final class OmdbMovie {
     public String getPlot() {
         return Plot;
     }
+
     public void setPlot(@Nullable String plot) {
         Plot = plot;
     }
@@ -144,6 +154,7 @@ public final class OmdbMovie {
     public String getLanguage() {
         return Language;
     }
+
     public void setLanguage(@Nullable String language) {
         Language = language;
     }
@@ -152,6 +163,7 @@ public final class OmdbMovie {
     public String getCountry() {
         return Country;
     }
+
     public void setCountry(@Nullable String country) {
         Country = country;
     }
@@ -160,6 +172,7 @@ public final class OmdbMovie {
     public String getPoster() {
         return Poster;
     }
+
     public void setPoster(@Nullable String poster) {
         this.Poster = poster;
     }
@@ -168,6 +181,7 @@ public final class OmdbMovie {
     public String getImdbID() {
         return imdbID;
     }
+
     public void setImdbID(@Nullable String imdbID) {
         this.imdbID = imdbID;
     }
